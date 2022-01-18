@@ -160,14 +160,4 @@
 
   </platform>
 
-  <!-- wp8 -->
-  <platform name="wp8">
-    <config-file target="config.xml" parent="/*">
-      <feature name="Linphone">
-        <param name="wp-package" value="Linphone"/>
-      </feature>
-    </config-file>
-
-    <source-file src="src/wp/Linphone.cs" />
-  </platform>
 </plugin>
